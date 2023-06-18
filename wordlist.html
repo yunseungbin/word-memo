@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galgo</title>
+    <link rel="stylesheet" href="wordlist.css" />
+  </head>
+  <body>
+    <header>
+      <h1>영어 단어장</h1>
+    </header>
+    <main>
+      <section id="word-list">
+        <h2 class="center">단어 목록</h2>
+        <ul id="word-list-items"></ul>
+      </section>
+      <section id="add-word-form">
+        <h2 class="center">단어 추가</h2>
+        <form id="word-form">
+          <div class="form-input">
+            <input type="text" id="word-input" placeholder="영단어" />
+          </div>
+          <div class="form-input">
+            <input type="text" id="meaning-input" placeholder="뜻" />
+          </div>
+          <button type="submit">추가</button>
+        </form>
+      </section>
+      <section id="save-button-section" class="right-top">
+        <button id="save-button">저장</button>
+      </section>
+    </main>
+    <script src="wordlist.js"></script>
+  </body>
+</html>
